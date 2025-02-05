@@ -1,0 +1,1 @@
+In React Router Dom v6, using the `useSearchParams` hook, if you try to update a search param to an empty string '', it won't work as expected.  It will instead remove the parameter completely. This can cause unexpected behavior if you're expecting an empty string to be treated as a different value than the parameter being absent.
